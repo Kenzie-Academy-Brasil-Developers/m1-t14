@@ -1,0 +1,80 @@
+/* 
+ANATOMIA CSS
+
+//SELETOR (CLASS/ID) **
+//ESCOPO (ATRIBUTOS)
+//ATRIBUTOS/PROPRIEDADES
+//DECLARAÇÃO => REGRA CSS
+
+elemento(div,h1,p){
+    corFundo:valor(vermelha) 
+}
+
+*/
+
+/* 
+SELETORES 
+
+- NOME => Aplica em todos os elementos que tem o mesmo nome
+- CLASSE => Aplica em todos os elementos que tem aquela classe
+- ID => aplica no elemento com o id declarado
+*/
+
+/* section{
+    background-color: red;
+}
+
+.secaoDestaque{
+    background-color: blue;
+}
+
+#tituloPrincipal{
+    color: #fff;
+} */
+
+
+.caixa{
+   
+    /* PROPRIEDADES DE TEXTO  */
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    line-height: 30px;
+    
+    /* PROPRIEDADES DE ELEMENTOS  */
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border:solid 5px #e67700 ;
+    margin-bottom:30px;
+    margin-left: 30px;
+    
+    padding:10px 10px 10px 5px;
+
+    
+}
+
+
+
+p{
+    background-color: black;
+    color: #fff;
+    font-style: italic;
+   
+}
+a{
+    background-color: #e67700;
+}
+
+
+
+.container{
+    background-color: red;
+}
+.post{
+    background-color: blue;
+}
+
