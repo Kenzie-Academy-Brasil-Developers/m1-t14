@@ -1,0 +1,42 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:20px 30px;
+}
+.cabecalho{
+    background: #FFFFFF;
+    border: 1px solid #C0C0C0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cabecalho__logo{
+    display: inline-block;
+}
+.cabecalho__logo img{}
+
+.cabecalho__menu{
+    display: inline-block;
+    vertical-align: top;
+}
+.cabecalho__menu ul{
+    padding-top: 20px;
+}
+.cabecalho__menu li{
+    margin: 0 25px;
+    display: inline-block;
+}
+.cabecalho__menu a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+
+
+
+
