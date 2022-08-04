@@ -1,0 +1,50 @@
+.container-inicial{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+.listaPost{
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+.listaPost li{
+    border-radius: 22px;
+    max-width: 350px;
+    margin-bottom: 30px;
+}
+.box-imagem{
+    height: 180px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.listaPost li img{
+   /* ALTERNATIVA PRA RESOLVER O TAMANHO DAS IMAGENS */
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    max-width: 350px;
+}
+.listaPost li h2{
+    height: 68px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2D2D2D;
+    margin-bottom: 10px;
+}
+.listaPost li p{
+    color: #2D2D2D;
+    margin-bottom: 25px;
+}
+.listaPost li button{
+    border: none;
+    background-color: #3962fe;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    border-radius: 5px;
+}
