@@ -1,0 +1,164 @@
+html, body, figure, img, div, section, article, input, button, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+     -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f1f3f5;
+}
+.container{
+    width: 100%;
+    max-width: 1390px;
+    margin: 0 auto;
+}
+.cabecalho{
+    /* background-image: url("./../img/imagemFundo.png"); */
+    background-image: linear-gradient(rgb(25 1 122 / 79%), rgb(25 1 122 / 79%)),  url("./../img/imagemFundo.png");
+    background-size: cover;
+    min-height: 562px;
+    padding-top: 50px;
+}
+/* .bgFundo{
+    width: 100%;
+    height: 562px;
+    background: rgb(25 1 122 / 80%);
+} */
+.cabecalho img{
+    margin-bottom: 60px;
+}
+.cabecalho .cabecalho__descricao{}
+.cabecalho .cabecalho__descricao h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    color: #DEE2E6;
+    margin-bottom: 32px;
+}
+.cabecalho .cabecalho__descricao p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #F1F3F5;
+}
+.cabecalho .cabecalho__descricao strong{}
+.cabecalho .cabecalho__descricao a{
+    background-color: #BC00FF;
+    color: #fff;
+    padding: 10px;
+    width: 296px;
+    height: 48px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 32px;
+}
+
+main{}
+main .container{
+    display: flex;
+}
+main .container .col-esquerda{
+    width: 65%;
+
+}
+main .container .col-direita{
+    width: 35%;
+}
+
+.secaoVagas{
+    padding-top: 45px;
+}
+.secaoVagas h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #212529;
+
+}
+.listaVagas{
+    margin-top:60px;
+}
+.listaVagas .vaga{
+    max-width: 818px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 38px;
+    margin-bottom: 32px;
+}
+.listaVagas .vaga h2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #212529;
+    margin-bottom: 18px;
+}
+.listaVagas .vaga .local-vaga{
+    display: flex;
+    margin-bottom: 28px;
+}
+.listaVagas .vaga .local-vaga p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #343A40;
+}
+.listaVagas .vaga .local-vaga p ~ p{
+    margin-left: 30px;
+}
+.listaVagas .vaga > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 28px;
+    color: #343A40;
+}
+.listaVagas .vaga .btn-vagas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+ 
+.listaVagas .vaga a{
+    display: block;
+    width: 111px;
+    height: 30px;
+    background: #DEE2E6;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #343A40;
+    padding: 4px 12px;
+
+}
+.listaVagas .vaga button{
+    background-color: #BC00FF;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    height: 38px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* div{
+    background-color: #343A40;
+    width: 400px;
+    height: 400px;
+}
+
+div p{
+    width: 150px;
+    height: 150px;
+    background-color: #BC00FF;
+    border: solid #fff;
+    float: left;
+} */
