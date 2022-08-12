@@ -56,13 +56,13 @@
 //     alert("Numero impar")
 // }
 
-// let numero1 = +prompt("Digite o primeiro numero")
-// let numero2 = +prompt("Digite o segundo numero")
+// // let numero1 = +prompt("Digite o primeiro numero")
+// // let numero2 = +prompt("Digite o segundo numero")
 
-// let numero1 = prompt("Digite o primeiro numero")
-// let numero2 = prompt("Digite o segundo numero")
+// // let numero1 = prompt("Digite o primeiro numero")
+// // let numero2 = prompt("Digite o segundo numero")
 
-//NUMBER() => CONVERTE UMA STRING PARA INTEIRO(NUMERO)
+// //NUMBER() => CONVERTE UMA STRING PARA INTEIRO(NUMERO)
 
 // let result = Number(numero1) + Number(numero2)
 // console.log(result)
@@ -117,7 +117,12 @@
 // if(operacao == "+" || operacao == "soma"){
     
 //     resultado = Number(numero1) + Number(numero2)
+
+//     console.log(`O resultado da soma de ${numero1} + ${numero2} é ${resultado}`)
+
+//     console.log("O resultado da soma de"+ numero1+ "+" +numero2+"é"+resultado)
 //     console.log(resultado)
+
 
 // }
 
@@ -149,6 +154,8 @@
 
 
 
+
+
 //DESCONTO NO FRETE 
 // let totalCompra = 200
 // let valorFrete  = 50
@@ -160,3 +167,11 @@
 // }else if(totalCompra > 500){
 //     total = total = totalCompra + (valorFrete - valorFrete)
 // }
+
+
+
+
+let nota3     = -1
+if(!nota3 >= 0 && nota3 <= 10){
+    alert("Valor é inválido");
+}
