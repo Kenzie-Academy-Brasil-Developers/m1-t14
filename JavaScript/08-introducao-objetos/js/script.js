@@ -1,7 +1,3 @@
-
-
-
-
 let nome = "Hudson"
 let idade = "25"
 let cidade = "Curitiba"
@@ -26,7 +22,7 @@ let pessoas = ["Hudson","25", "Lucas"]
 //     cor:"Preta",
 //     tamanho:["M","P", "PP"],
 //     estoque:true,
-    
+
 // }
 
 
@@ -114,16 +110,16 @@ function mostrarProduto(produto){
         console.log(`Produto Nome: ${produtoNome}`)
         console.log(`Preço: ${produtoPreco}`)
         console.log(`Categorias:`)
-        
+
         for(let i = 0; i < produtocategorias.length; i++){
 
             console.log(`Nome categoria: ${produtocategorias[i]}`)
         }
-            
+
     }else{
         console.log("produto fora do estoque")
     }
-    
+
 }
 
 //mostrarProduto(camiseta)
@@ -138,7 +134,7 @@ function mostrarProduto(produto){
 //     [60,65,45,76,80,95],   // ALUNO 2 => Ugo
 //     [10,45,65,67,78,54],   // ALUNO 3 => Eduardo
 //     [90,90,96,79,80,100],  // ALUNO 4 => Anderson
-    
+
 // ]
 
 let alunoHudson = {
@@ -212,11 +208,11 @@ let alunoHudson2 = {
 
 
 function pesquisaMateria(aluno, materia){
-    
+
     let materias = aluno.materias
-    
+
     for(let i = 0; i < materias.length; i++){
-        
+
         let materiaAtual  = materias[i]
 
         if(materiaAtual.nomeMateria  == materia){
@@ -228,7 +224,7 @@ function pesquisaMateria(aluno, materia){
 
 
 }
- 
+
 //console.log(pesquisaMateria(alunoHudson2, "E.D"))
 
 
@@ -264,6 +260,3 @@ listaAlunos.push(
 )
 
 console.log(listaAlunos)
-
-
-
